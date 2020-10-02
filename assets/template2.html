@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="imageslidermaker/css/my-slider.css"/>
+    <link rel="stylesheet" href="woocommerce/flexslider.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="woocommerce/flexslider-rtl.css" type="text/css" media="screen" />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="woocommerce/demo/js/modernizr.js"></script>
+    <script src="imageslidermaker/js/ism-2.2.min.js"></script>
+    <script src="multi-slide-carousel/js/multislider.js"></script>
+
+    <title>OPD Se Kabupaten Sumbawa</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-primary bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: #000">LOGO<!--img src="image/logo/logo.png" style="width: 165px"--></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <div class="form-inline my-2 my-lg-2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROFIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROGRAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LAYANAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BERITA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cari" data-toggle="collapse" aria-controls="jobseeker" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+	<div class="collapse-menu">
+		<div class="collapse" id="cari">
+			<div class="bg-dark p-4 text-center">
+				<form>
+				  <div class="form-row">
+					<div class="col-md-8 offset-md-2">
+						<div class="row">
+						<div class="col-md-11">
+						  <input type="text" class="form-control" placeholder="Cari">
+						</div>
+						<div class="col-md-1">
+						  <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+						</div>
+					  </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+  <div class="row">
+    <style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <div id="slider1_container" style="visibility: hidden; position: relative; width: 1140px; height: 442px; overflow: hidden;padding:">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+        </div>
+
+        <!-- Slides Container -->
+        <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
+        overflow: hidden;">
+            <div style="Width:100%">
+                <img data-u="image" src="jssor/img/gallery/980x380/001.jpg" />
+            </div>
+            <div style="Width:100%">
+                <img data-u="image" src="jssor/img/gallery/980x380/002.jpg" />
+            </div>
+            <div style="Width:100%">
+                <img data-u="image" src="jssor/img/gallery/980x380/003.jpg" />
+            </div>
+            <div style="Width:100%">
+                <img data-u="image" src="jssor/img/gallery/980x380/004.jpg" />
+            </div>
+        </div>
+
+        <!--#region Bullet Navigator Skin Begin -->
+        <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
+        <style>
+            .jssorb031 {position:absolute;}
+            .jssorb031 .i {position:absolute;cursor:pointer;}
+            .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+            .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+            .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+            .jssorb031 .i.idn {opacity:.3;}
+        </style>
+        <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!--#endregion Bullet Navigator Skin End -->
+
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
+        <style>
+            .jssora051 {display:block;position:absolute;cursor:pointer;}
+            .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+            .jssora051:hover {opacity:.8;}
+            .jssora051.jssora051dn {opacity:.5;}
+            .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+        </style>
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+        <!--#endregion Arrow Navigator Skin End -->
+    </div>
+    <!-- Jssor Slider End -->
+
+  </div>
+
+	<div style="background: #ddd; padding: 35px 0">
+		<div class="container">
+      <div id="mixedSlider">
+            <div class="MS-content">
+                <div class="item">
+                    <div class="imgTitle">
+                        <h2 class="blogTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                        <img src="https://placeimg.com/500/300/animals" alt="" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="item">
+                    <div class="imgTitle">
+                        <h2 class="blogTitle">Arch</h2>
+                        <img src="https://placeimg.com/500/300/arch" alt="" />
+                    </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>
+                   <a href="#">Read More</a>
+                </div>
+                <div class="item">
+                    <div class="imgTitle">
+                        <h2 class="blogTitle">Nature</h2>
+                        <img src="https://placeimg.com/500/300/nature" alt="" />
+                    </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="item">
+                    <div class="imgTitle">
+                        <h2 class="blogTitle">People</h2>
+                        <img src="https://placeimg.com/500/300/people" alt="" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="item">
+                    <div class="imgTitle">
+                        <h2 class="blogTitle">Tech</h2>
+                        <img src="https://placeimg.com/500/300/tech" alt="" />
+                    </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+            </div>
+            <div class="MS-controls">
+                <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+      </div>
+      <script>
+      		$('#mixedSlider').multislider({
+      			duration: 750,
+      			interval: 3000
+      		});
+      </script>
+		</div>
+	</div>
+
+	<div style="background: #FFF;padding: 35px 0">
+		<div class="container">
+			<div class="row">
+        <div class="col-md-6">
+          <div class="title-box">
+            <h2 class="title-box-title">Data Download/Pengumuman</h2>
+          </div>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-download"></i> Data Download/Pengumuman
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-download"></i> Data Download/Pengumuman
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-download"></i> Data Download/Pengumuman
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-download"></i> Data Download/Pengumuman
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa fa-download"></i> Data Download/Pengumuman
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="title-box">
+            <h2 class="title-box-title">Agenda Kegiatan</h2>
+          </div>
+          <div id="accordion" class="myaccordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Undergraduate Studies
+                    <span class="fa fa-stack fa-sm">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="background:#f1f1f1">
+                <div class="card-body">
+                  <p>Suspendisse molestie mauris turpis, vel imperdiet libero tempus et. Vivamus nec erat porta elit suscipit laoreet ut eu nulla. Phasellus sagittis magna eu nisi accumsan, at molestie tellus pharetra. Sed at nibh at sem tristique maximus id vel magna. Sed quis vulputate nulla. Mauris rhoncus dolor et placerat finibus. Phasellus venenatis turpis ac ornare viverra.</p>
+
+            <p>Donec porta turpis eget pharetra mattis. Nunc non finibus diam. Quisque enim erat, egestas id posuere quis, facilisis eget neque. Aenean ornare convallis neque eget pharetra. Suspendisse blandit pharetra elit, eget ultrices lorem porta auctor. Nullam malesuada lobortis massa, ac porttitor dui dapibus eget. Vestibulum tincidunt eros id ante consectetur, ut mollis enim posuere. Vivamus aliquet urna ante, et tempor risus facilisis in. Morbi sem tellus, dictum ultrices viverra ut, ornare gravida sapien.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Postgraduate Studies
+                    <span class="fa fa-stack fa-2x">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="background:#f1f1f1">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a vulputate ligula. Integer elementum finibus arcu, ac faucibus nulla commodo ac. Proin nunc mi, feugiat in rhoncus et, mattis quis enim. Duis metus nulla, cursus et urna eget, bibendum commodo magna. Donec placerat arcu leo, quis ultrices felis blandit sed. Vivamus vehicula urna pretium dapibus dignissim. Vestibulum nibh tellus, sodales ut eros sit amet, fringilla blandit eros. Donec volutpat metus non lorem sodales lobortis. Mauris tincidunt pharetra ultrices.</p>
+
+            <p>ed varius nibh ut neque tincidunt, eu blandit libero hendrerit. Mauris eu diam eget risus vestibulum tincidunt. Integer volutpat, lorem a lobortis egestas, ligula nisl feugiat tortor, sed condimentum nulla ligula at justo. Praesent non est justo. Sed vitae rutrum est. In et risus id sem egestas iaculis nec vitae erat. Donec sed massa a lacus ultrices feugiat. Mauris scelerisque efficitur est, nec tincidunt neque interdum vitae. Donec convallis venenatis nisl eget ullamcorper. Mauris dapibus risus quis sapien varius, vel convallis justo mattis. Curabitur id condimentum turpis. Fusce vitae dui at nunc condimentum congue.</p>
+
+            <p>Vivamus placerat dapibus enim, nec semper massa malesuada eu. Sed ultrices, ex sit amet facilisis faucibus, nunc enim imperdiet enim, eget eleifend nisi dui ut dolor. Integer quam quam, commodo ut elementum non, elementum sit amet tortor. Aliquam malesuada mi id vulputate consectetur. In velit eros, sodales et sem non, ullamcorper rutrum nunc. Praesent nec fermentum neque. Nam at arcu luctus nisl congue vehicula at et odio. Nullam posuere sit amet lacus et ornare. Cras vitae quam tempor diam condimentum ultricies vitae id risus. Nunc euismod porta nulla non consequat. Etiam euismod volutpat vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec scelerisque eu turpis et dictum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Research
+                    <span class="fa fa-stack">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="background:#f1f1f1">
+                <div class="card-body">
+                  <p>ed varius nibh ut neque tincidunt, eu blandit libero hendrerit. Mauris eu diam eget risus vestibulum tincidunt. Integer volutpat, lorem a lobortis egestas, ligula nisl feugiat tortor, sed condimentum nulla ligula at justo. Praesent non est justo. Sed vitae rutrum est. In et risus id sem egestas iaculis nec vitae erat. Donec sed massa a lacus ultrices feugiat. Mauris scelerisque efficitur est, nec tincidunt neque interdum vitae. Donec convallis venenatis nisl eget ullamcorper. Mauris dapibus risus quis sapien varius, vel convallis justo mattis. Curabitur id condimentum turpis. Fusce vitae dui at nunc condimentum congue.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background: #ddd; padding: 35px 0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+          <div class="title-box">
+            <h2 class="title-box-title">Tetang Kami</h2>
+          </div>
+          <div>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
+            <p>
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="title-box">
+            <h2 class="title-box-title">Video</h2>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nbSbaGtOqNU" allowfullscreen></iframe>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+
+  <div style="clear: both"></div>
+	<footer class="navbar-primary" style="padding: 35px 0; font-size: 13px;background:#28a745;color:#FFF">
+		<div class="container">
+			<div class="footer-atas">
+				<div sclass="col-md-10 offset-md-1">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="title-footer">
+								INFORMASI KONTAK
+							</div>
+              <div class="media" style="margin-top:12px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lambang_Kabupaten_Sumbawa.png/564px-Lambang_Kabupaten_Sumbawa.png" class="mr-3" style="width: 100px">
+                <div class="media-body">
+                  <h5 class="mt-0">
+                    <div class="title-footer" style="border-bottom: 0;font-size: 23px;">
+      								DINAS KOMUNIKASI INFORMATIKA DAN STATISTIK KABUPATEN SUMBAWA
+      							</div>
+                  </h5>
+                  <ul class="menu-footer">
+    								<li>
+    									<i class="fa fa-map-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; Jl. Gor Mustika No. 5, Kecamatan Blora Kota, Kabupaten Blora, Jawa Tengah
+    								</li>
+    								<li>
+    									<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; (0371) 12345678
+    								</li>
+    								<li>
+    									<i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; 537.mardinata@gmail.com
+    								</li>
+    								<li>
+    									<i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; http://www.google.co.id
+    								</li>
+    							</ul>
+
+                </div>
+              </div>
+						</div>
+
+						<div class="col-md-2">
+							<div class="title-footer">
+								SOSIAL MEDIA
+							</div>
+							<ul class="menu-footer">
+                  <div>
+          					<a href="https://www.facebook.com/profile.php?id=100014952396278" target="_blank"><img src="image/fb.png"></a>&nbsp;
+          					<a href="#" target="_blank"><img src="image/ig.png"></a>&nbsp;
+          					<a href="#" target="_blank"><img src="image/yt.png"></a>&nbsp;
+          				</div>
+							</ul>
+						</div>
+            <div class="col-md-5">
+							<div class="title-footer">
+								LINK TERKAIT
+							</div>
+							<ul class="menu-footer">
+                <section class="slider">
+                  <div class="flexslider carousel" style="direction:rtl;background: none;border: 0;">
+                    <ul class="slides">
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><img src="image/link.jpg" /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <!-- FlexSlider -->
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+                <script defer src="woocommerce/jquery.flexslider.js"></script>
+
+                <script type="text/javascript">
+                  $(function(){
+                    SyntaxHighlighter.all();
+                  });
+                  $(window).load(function(){
+                    $('.flexslider').flexslider({
+                      animation: "slide",
+                      animationLoop: false,
+                      itemWidth: 150,
+                      itemMargin: 8,
+                      pausePlay: true,
+                  		mousewheel: true,
+                  		rtl: true,
+              		start: function(slider){
+                        $('body').removeClass('loading');
+                      }
+                    });
+                  });
+                </script>
+                <script src="jssor/js/jquery-1.9.1.min.js"></script>
+                <script type="text/javascript" src="jssor/js/jssor.slider.min.js"></script>
+                <script>
+
+                    jQuery(document).ready(function ($) {
+                        var options = {
+                            $AutoPlay: 1,                                       //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
+                            $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                            $Idle: 2000,                                        //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                            $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                            $ArrowKeyNavigation: 1,   			                //[Optional] Steps to go for each navigation request by pressing arrow key, default value is 1.
+                            $SlideEasing: $Jease$.$OutQuint,                    //[Optional] Specifies easing for right to left animation, default value is $Jease$.$OutQuad
+                            $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                            $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide, default value is 20
+                            //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                            //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                            $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                            $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                            $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                            $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+
+                            $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                                $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                                $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                                $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                            },
+
+                            $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                                $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                                $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                                $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                                $SpacingX: 12,                                  //[Optional] Horizontal space between each item in pixel, default value is 0
+                                $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                            }
+                        };
+
+                        var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+                        //responsive code begin
+                        //you can remove responsive code if you don't want the slider scales while window resizing
+                        function ScaleSlider() {
+                            var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                            if (parentWidth) {
+                                jssor_slider1.$ScaleWidth(parentWidth - 30);
+                            }
+                            else
+                                window.setTimeout(ScaleSlider, 30);
+                        }
+                        ScaleSlider();
+
+                        $(window).bind("load", ScaleSlider);
+                        $(window).bind("resize", ScaleSlider);
+                        $(window).bind("orientationchange", ScaleSlider);
+                        //responsive code end
+                    });
+                </script>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div style="background: #02c72f">
+		<div class="container">
+      <div class="col-md-5">
+        <p class="text-footer">
+          Copyright © Dinas Komunikasi Informatika dan Statistik Kabupaten Sumbawa, 2015-2019
+          Supported by Shomad Technology
+        </p>
+      </div>
+		</div>
+	</div>
+
+
+  </body>
+</html>
